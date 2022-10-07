@@ -1,0 +1,55 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 100vh;
+}
+.App .playAgainBtn {
+  padding: 10px 20px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.App .playAgainBtn:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+}
+.App .playAgainBtn:active {
+  transform: scale(0.98);
+}
+.App .status {
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.squareContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 50px;
+  outline: none;
+}
+.square:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */
