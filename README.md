@@ -1,4 +1,4 @@
-# TIC TAC TOE APP
+# TIC TAC TOE
 
 ## Table of contents
 
@@ -12,11 +12,11 @@ Thanks for checking out.
 
 ## Overview
 
-This is about creating simple tic tac toe games.
+This is about creating simple tic tac toe game.
 
 ### Links
 
--  Live Site URL: [ONLINE TIC TAC TOE]()
+-  Live Site URL: [TIC TAC TOE](https://tictactoe-flax.vercel.app/)
 
 ### Built with
 

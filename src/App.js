@@ -53,15 +53,23 @@ function App() {
    };
 
    return (
-      <div className="App">
-         <h1>Tic Tac Toe</h1>
+      <>
+         <div className="App">
+            <h1>Tic Tac Toe</h1>
 
-         <Boards squareValue={squareValue} handleClick={handleClick} />
+            <Boards squareValue={squareValue} handleClick={handleClick} />
 
-         <h2 className="status">{!squareValue.includes(null) ? "It's a Draw!" : status.isWin ? `"${status.player}" has won!` : `${status.player}'s turn!`}</h2>
+            <h2 className="status">{!squareValue.includes(null) ? "It's a Draw!" : status.isWin ? `"${status.player}" has won!` : `${status.player}'s turn!`}</h2>
 
-         <input type="button" value="Play Again!" className="playAgainBtn" onClick={playAgain} />
-      </div>
+            <input type="button" value="Play Again!" className="playAgainBtn" onClick={playAgain} />
+         </div>
+         <div className="codeBy">
+            <span>Written & Coded by </span>
+            <a href="https://github.com/boymelvs" target="_blank" rel="noreferrer noopener">
+               <span>boymelvs</span>
+            </a>
+         </div>
+      </>
    );
 }
 

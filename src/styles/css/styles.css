@@ -20,7 +20,7 @@ body {
 }
 .App .playAgainBtn {
   padding: 10px 20px;
-  border: 1px solid;
+  border: 1px solid gray;
   border-radius: 5px;
 }
 .App .playAgainBtn:hover {
@@ -50,6 +50,12 @@ body {
 }
 .square:hover {
   cursor: pointer;
+}
+
+.codeBy {
+  text-align: center;
+  font-size: 12px;
+  padding-bottom: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
