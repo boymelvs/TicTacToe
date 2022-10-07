@@ -41,7 +41,7 @@ function App() {
       }
 
       squareValue[idx] = isX ? "X" : "O";
-      setSquareValue([...squareValue, squareValue[idx]]);
+      setSquareValue([...squareValue]);
       setStatus({ ...status, isWin: false, player: !isX ? "X" : "O" });
       setIsX(!isX);
    };
